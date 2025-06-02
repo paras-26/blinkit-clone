@@ -1,0 +1,83 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+  header{
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    gap: 15px;
+}
+  .navleft{
+      justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .address{
+        padding: 10px;
+    }
+    .address h3{
+        font-size: 14px;
+    }
+    .address p{
+        font-size: 12px;
+    }
+    .searchbar button{
+      padding: 10px;
+    }
+    .navright{
+        background-color: white;
+        position: fixed;  
+        bottom: 0px;
+        justify-content: center;
+        width: 100%;
+        margin-right: 0px;
+    }
+    .banner{
+        display: none;
+    }
+    .orderbanner{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .categoryitem{
+        flex-basis: 25%;
+    }
+
+    .productsection{
+        padding: 30px 10px;
+    }
+
+    .productitems{
+        flex-basis: 49%;
+}
+footer{
+    padding-top: 0px;
+}
+.footermidrow1{
+    padding: 10px;
+    flex-direction: column;
+}
+.footermidrow2{
+    background-color: #fcfcfc;
+    padding: 20px 0px;
+    width: 100%;
+}
+.FooterLinks__List li{
+    flex-basis: 48%;
+    gap: 10px;
+}
+.FooterLinks__List li a{
+    margin-bottom: 10px;
+}
+.footermidrow3{
+    padding: 0px 10px;
+}
+.footermidrow2{
+    flex-direction: column;
+}
+.footermidrow2 p{
+    margin-bottom: 20px;
+}
+.appicon{
+    margin-bottom: 20px;
+}
+}
